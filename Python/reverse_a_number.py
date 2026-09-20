@@ -1,9 +1,7 @@
 ### Reverse a number
 
-
 num = 123456789
 
-# Method 1
 reverse = 0
 
 while num > 0:
@@ -12,9 +10,20 @@ while num > 0:
     num = num // 10
 
 print(reverse)
+print(type(reverse))
 
 
-# Method 2
-num = 123456789
 
-print(str(num)[::-1])
+
+
+### Reverse a negative number.
+
+num = -12345
+
+if num < 0:
+    reverse = -int(str(abs(num))[::-1])
+else:
+    reverse = int(str(num)[::-1])
+
+print(reverse)
+print(type(reverse))
