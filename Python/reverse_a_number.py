@@ -3,7 +3,8 @@
 
 num = 123456789
 
-reverse= 0
+# Method 1
+reverse = 0
 
 while num > 0:
     digit = num % 10
@@ -11,3 +12,9 @@ while num > 0:
     num = num // 10
 
 print(reverse)
+
+
+# Method 2
+num = 123456789
+
+print(str(num)[::-1])
