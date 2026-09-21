@@ -11,3 +11,16 @@ else:
 
 
 
+# using function
+
+
+def check_palindrome(value):
+    if value == value[::-1]:
+        return "The number is a palindrome"
+    else:
+        return "The number is not a palindrome"
+
+
+number = input("Enter the number: ")
+
+print(check_palindrome(number))
