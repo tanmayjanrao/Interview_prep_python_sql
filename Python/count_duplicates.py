@@ -41,3 +41,15 @@ for char in result:
         print(char, result[char])
     else: 
         pass
+
+
+dict = {
+
+    "tanmay":26,
+    "TJ" :45,
+    "Tjay" : 97
+}
+
+dict["tanmay"]+=1
+
+print(dict["tanmay"])
