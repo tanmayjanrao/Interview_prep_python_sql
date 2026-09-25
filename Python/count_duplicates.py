@@ -20,5 +20,24 @@ for char in count:
         print(char) 
 
 
+### Practice Question
 
-    
+### Print only the characters that appear more than once, along with how many times they appear.
+
+str = "programming"
+
+result = {}
+
+for char in str:
+    if char in result:
+        result[char] += 1
+    else:
+        result[char] = 1
+
+print(result)
+
+for char in result:
+    if result[char] >=2:
+        print(char, result[char])
+    else: 
+        pass
