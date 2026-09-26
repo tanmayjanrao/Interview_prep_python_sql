@@ -1,6 +1,25 @@
 ### Find duplicate characters in a string
 
+### Core logic
 
+
+dict = {
+
+    "tanmay":26,
+    "TJ" :45,
+    "Tjay" : 97
+}
+
+dict["tanmay"]+=1
+dict["TJ"]= 88
+
+print(dict["tanmay"])
+print(dict["TJ"])
+
+
+
+
+### Find duplicate characters in a string
 
 s = "I like programming"
 
@@ -43,13 +62,3 @@ for char in result:
         pass
 
 
-dict = {
-
-    "tanmay":26,
-    "TJ" :45,
-    "Tjay" : 97
-}
-
-dict["tanmay"]+=1
-
-print(dict["tanmay"])
