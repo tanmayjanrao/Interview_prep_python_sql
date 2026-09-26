@@ -41,3 +41,19 @@ for i in range(2, num):
         # did not divide num exactly.
         # But we need to check ALL
         print("Prime number")
+
+
+
+
+
+num = int(input("Enter a number: "))
+
+if num <=1:
+    print("not prime number")
+else:
+    for i in range (2,num):
+        if num % i == 0 :
+            print("not prime number")
+            break
+        else:
+            print("not prime number")
