@@ -56,4 +56,4 @@ else:
             print("not prime number")
             break
         else:
-            print("not prime number")
+            print(" prime number")
