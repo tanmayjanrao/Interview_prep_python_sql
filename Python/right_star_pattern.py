@@ -14,3 +14,20 @@ for i in range(1,6):
 
 for i in range(1, 6):
     print(' ' * (5 - i) + '*' * i)
+
+
+
+
+n = int(input("enter the terms : "))
+
+a = 0 
+b = 1
+
+
+for i in range (n):
+    print (a , end = " ")
+
+
+    c = a + b
+    a=b
+    b=c
