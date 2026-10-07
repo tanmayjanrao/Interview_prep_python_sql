@@ -8,15 +8,21 @@
 # *****
 
 
+
+
+#### Right-Angled Star Pattern
 for i in range(1,6):
     print('*' * i)
 
 
+
+
+#### Left-Angled Star Pattern
 for i in range(1, 6):
     print(' ' * (5 - i) + '*' * i)
 
 
-
+#### Sqaure shape
 for i in range(0,6):
     if i == 0 or i == 5:
         print("*" * 5)
