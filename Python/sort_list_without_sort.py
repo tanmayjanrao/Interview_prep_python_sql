@@ -9,3 +9,16 @@ for i in range(len(numbers)):
             numbers[i], numbers[j] = numbers[j], numbers[i]
 
 print(numbers)
+
+
+
+
+numbers = [5, 2, 8, 1, 3]
+result = []
+
+while numbers:
+    smallest = min(numbers)
+    result.append(smallest)
+    numbers.remove(smallest)
+
+print(result)
