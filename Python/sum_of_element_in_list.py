@@ -26,4 +26,11 @@ def find_sum(a):
 
 numbers = [10, 20, 30, 40, 50]
 
+
+## built-in python function function 
+a = [10, 20, 30, 40, 50]
+
+total = sum(a)
+print(total)
+
 print(find_sum(numbers))
