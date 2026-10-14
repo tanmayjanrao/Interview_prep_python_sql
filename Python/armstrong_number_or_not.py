@@ -1,10 +1,7 @@
-#### Check if a number is an Armstrong number
-
-
+### Check if a number is an Armstrong number
 
 
 ### An Armstrong number is a number where the sum of each digit raised to the power of the number of digits equals the original number.
-
 
 
 num = 153
