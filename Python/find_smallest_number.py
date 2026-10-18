@@ -11,3 +11,13 @@ for num in number:
         smallest = num
 
 print(smallest)
+
+
+#### using sort
+
+
+numbers = [57, 45, 23, 89, 12, 67]
+
+numbers.sort()
+
+print(numbers[0])
