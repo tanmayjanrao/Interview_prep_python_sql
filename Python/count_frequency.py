@@ -28,3 +28,15 @@ for char in t:
         c[char] = 1
 
 print(c)
+
+
+
+#### Given a string, find the first character that appears only once.
+
+
+s = "aabbcdeeff"
+
+for char in s:
+    if s.count(char) == 1:
+        print(char)
+        break
