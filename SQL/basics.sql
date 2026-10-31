@@ -14,3 +14,6 @@ WHERE salary BETWEEN 30000 AND 40000;
 
 SELECT * FROM employees
 WHERE department = 'IT';
+
+SELECT * FROM employees
+WHERE department IN ('IT', 'HR');
