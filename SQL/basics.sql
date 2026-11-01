@@ -17,3 +17,11 @@ WHERE department = 'IT';
 
 SELECT * FROM employees
 WHERE department IN ('IT', 'HR');
+
+
+SELECT * FROM employees
+ORDER BY salary DESC;
+
+
+SELECT COUNT(*) AS total_employees
+FROM employees;
