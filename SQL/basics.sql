@@ -25,3 +25,8 @@ ORDER BY salary DESC;
 
 SELECT COUNT(*) AS total_employees
 FROM employees;
+
+
+SELECT department, COUNT(*) AS employee_count
+FROM employees
+GROUP BY department;
