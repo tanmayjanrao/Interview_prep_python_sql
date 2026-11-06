@@ -30,3 +30,7 @@ FROM employees;
 SELECT department, COUNT(*) AS employee_count
 FROM employees
 GROUP BY department;
+
+SELECT department, AVG(salary) AS average_salary
+FROM employees
+GROUP BY department;
