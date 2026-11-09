@@ -34,3 +34,6 @@ GROUP BY department;
 SELECT department, AVG(salary) AS average_salary
 FROM employees
 GROUP BY department;
+
+SELECT * FROM employees
+WHERE salary < 40000;
