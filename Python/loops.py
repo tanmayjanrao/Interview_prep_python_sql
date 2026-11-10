@@ -6,16 +6,17 @@
 numbers = [45, 12, 78, 23, 9, 56, 12, 34]
 
 
-smallest = float('inf')
-second_smallest = float('inf')
+smallest = numbers[0]
 
 for num in numbers:
-
     if num < smallest:
-        second_smallest = smallest
         smallest = num
 
-    elif num < second_smallest and num != smallest:
-        second_smallest = num
+count = 0
 
-print("second smallest:", second_smallest)
+for num in numbers:
+    if num == smallest:
+        count += 1
+
+print("smallest:", smallest)
+print("count:", count)
