@@ -37,3 +37,6 @@ GROUP BY department;
 
 SELECT * FROM employees
 WHERE salary < 40000;
+
+SELECT DISTINCT department
+FROM employees;
