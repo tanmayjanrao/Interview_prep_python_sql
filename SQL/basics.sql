@@ -40,3 +40,10 @@ WHERE salary < 40000;
 
 SELECT DISTINCT department
 FROM employees;
+
+SELECT * FROM employees
+WHERE salary <= 35000;
+
+
+SELECT * FROM employees
+ORDER BY name ASC;
