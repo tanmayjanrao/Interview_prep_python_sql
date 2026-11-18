@@ -47,3 +47,6 @@ WHERE salary <= 35000;
 
 SELECT * FROM employees
 ORDER BY name ASC;
+
+SELECT MAX(salary) AS highest_salary
+FROM employees;
