@@ -50,3 +50,6 @@ ORDER BY name ASC;
 
 SELECT MAX(salary) AS highest_salary
 FROM employees;
+
+SELECT MIN(salary) AS lowest_salary
+FROM employees;
