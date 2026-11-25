@@ -15,3 +15,10 @@ for key in a:
         result.append(key)
 
 print(result)
+
+
+
+### using sets and intersection 
+result = list(set(a).intersection(b))
+
+print(result)
